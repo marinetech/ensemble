@@ -17,7 +17,7 @@ def main():
     nm3_modem = Nm3(input_stream=serial_port, output_stream=serial_port)
 
     ## Parameters used
-    local_address = 223
+    local_address = 228 # If bouy IP is 192.168.0.8 then local_address = 228
     remote_addreses = [123, 124, 125, 126]
     message = b'Hello'
 
@@ -28,7 +28,6 @@ def main():
 
     # $C - Channel Impulse Response
     channel_impulse_response(nm3_modem=nm3_modem, remote_addreses=remote_addreses, plot_results=False)
-
 
     return
 
