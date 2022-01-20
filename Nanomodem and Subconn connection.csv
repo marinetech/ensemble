@@ -1,0 +1,7 @@
+﻿Modem,,,Subconn,
+Pin,Name,Color,Pin,Color
+1,Vbat,Black,1,Black
+2,GND,White,2,White
+3,TxD,Red,4,Green
+4,RxD,Green,3,Red
+5,RxS,Orange,5,Orange
